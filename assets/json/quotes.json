@@ -1,0 +1,69 @@
+{
+  "quotes":[
+  {
+    "Id": 1,
+    "Quotation": "There are three kinds of creators. The first steals from the world, the second steals from his neighbor. The third is using the inspiration source within.",
+    "PublishDate": "2020-02-29T12:10"
+  },
+  {
+    "Id": 2,
+    "Quotation": "A limited scientist can't see beyond matter.",
+    "PublishDate": "2020-02-29T13:05"
+  },
+  {
+    "Id": 3,
+    "Quotation": "A genius must always protect the mind against intruders.",
+    "PublishDate": "2020-02-29T11:45"
+  },
+  {
+    "Id": 4,
+    "Quotation": "The best way to learn and develop is to observe the stupidy of humanity.",
+    "PublishDate": "2020-02-29T11:11:34"
+  },
+  {
+    "Id": 5,
+    "Quotation": "The water level remains the same when the ice cube melts.",
+    "PublishDate": "2020-02-25T22:45"
+  },
+  {
+    "Id": 6,
+    "Quotation": "The wise seek the truth, and the fool makes his truth.",
+    "PublishDate": "2020-02-18T21:31"
+  },
+  {
+    "Id": 7,
+    "Quotation": "Everyone can read books, but not everyone can understand the meanings.",
+    "PublishDate": "2020-02-18T21:22"
+  },
+  {
+    "Id": 8,
+    "Quotation": "It is better to study for yourselves than to let a deceiver educate you.",
+    "PublishDate": "2020-02-08T23:57"
+  },
+  {
+    "Id": 9,
+    "Quotation": "Evil has no age.",
+    "PublishDate": "2019-11-29T13:36"
+  },
+  {
+    "Id": 10,
+    "Quotation": "It's easy to talk freely but harder to stick to a subject.",
+    "PublishDate": "2020-04-15T00:27"
+  },
+  {
+    "Id": 11,
+    "Quotation": "Languages are born out of confusion and misunderstanding.",
+    "PublishDate": "2019-06-10T19:02"
+  },
+  {
+    "Id": 12,
+    "Quotation": "There is a difference between knowing the word and understanding the meaning of the word.",
+    "PublishDate": "2019-06-08T17:52"
+  },
+  {
+    "Id": 13,
+    "Quotation": "Nothing on this earth lasts forever.",
+    "PublishDate": "2020-04-26T17:52"
+  }
+]
+}

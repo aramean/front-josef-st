@@ -1,0 +1,52 @@
+﻿[
+  {
+    "Id": 1,
+    "Title": "Food",
+    "Comment": "Food is a passion and art for me."
+  },
+  {
+    "Id": 2,
+    "Title": "Traveling",
+    "Comment": "I love to travel to different places and explore the world."
+  },
+  {
+    "Id": 3,
+    "Title": "Art",
+    "Comment": ""
+  },
+  {
+    "Id": 4,
+    "Title": "Programming",
+    "Comment": "It's what I have been doing in my whole professional life."
+  },
+  {
+    "Id": 5,
+    "Title": "Astronomy",
+    "Comment": "The universe is a fascinating place and filled with beautiful art."
+  },
+  {
+    "Id": 6,
+    "Title": "Music",
+    "Comment": "Since my childhood, I was interested in music. I've started to sing at an early age and now I consider myself as a professional singer."
+  },
+  {
+    "Id": 7,
+    "Title": "Psychology",
+    "Comment": ""
+  },
+  {
+    "Id": 8,
+    "Title": "Theology",
+    "Comment": "As a Christian, I have a strong faith in God. I'm not ashamed of what I believe in. Christianity and the Bible make sense to me and gives me hope when there is none. I have studied the Bible since childhood."
+  },
+  {
+    "Id": 9,
+    "Title": "History",
+    "Comment": "History has always been a part of my Aramean identity."
+  },
+  {
+    "Id": 10,
+    "Title": "Animals",
+    "Comment": ""
+  }
+]

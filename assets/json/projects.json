@@ -1,0 +1,218 @@
+﻿[
+  {
+    "Id": 1,
+    "Title": "Gymnasieantagningen (Indra)",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 2,
+    "Title": "Yrkesresan",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 3,
+    "Title": "GRVux",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 4,
+    "Title": "Syvonline",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 5,
+    "Title": "Hitta rätt",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 6,
+    "Title": "Distanspedagogik",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 7,
+    "Title": "Tena",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 8,
+    "Title": "Abeer Nehme",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 9,
+    "Title": "Framtiden",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 10,
+    "Title": "Shell",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 11,
+    "Title": "Jordbruksverket",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 12,
+    "Title": "FoxFarmaci",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 13,
+    "Title": "HairFashion Academy",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 14,
+    "Title": "Skolmuseet",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 15,
+    "Title": "KUBit",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 16,
+    "Title": "Textäventyr",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 17,
+    "Title": "SFIväst",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z"
+  },
+  {
+    "Id": 18,
+    "Title": "Framtidens Samhällsbyggare",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Description": {
+      "sv_SE": "Framtidens Samhällsbyggare är ett branschöverskridande traineeprogram som startades för att skapa samverkan och möta framtidens utmaningar inom samhällsbyggnad."
+    }
+  },
+  {
+    "Id": 18,
+    "Title": "Västsverige Växer",
+    "StartDate": "2018-01-01",
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Description": {
+      "sv_SE": "Västsverige växer är ett pedagogiskt material om hållbart samhällsbyggande för åk 7-9 samt gymnasiet."
+    }
+  },
+  {
+    "Id": 19,
+    "Title": "Hållbarhetsverktyget",
+    "StartDate": "2019-01-01",
+    "EndDate": "2020-05-28",
+    "Description": {
+      "sv_SE": "Verktyget räknar ut den klimatpåverkan som de boendes resor kommer att innebära, sett till energiförbrukning och koldioxidutsläpp."
+    }
+  },
+  {
+    "Id": 20,
+    "Title": "VIP Parking",
+    "StartDate": "2015-01-01",
+    "EndDate": "2015-05-28",
+    "Description": {
+      "sv_SE": ""
+    },
+    "Url": "http://m-vipparking.com"
+  },
+  {
+    "Id": 21,
+    "Title": "E-concierge",
+    "StartDate": "2015-01-01",
+    "EndDate": "2015-05-28",
+    "Description": {
+      "sv_SE": ""
+    }
+  },
+  {
+    "Id": 22,
+    "Title": "Biometric",
+    "StartDate": "2015-01-01",
+    "EndDate": "2015-05-28",
+    "Description": {
+      "sv_SE": ""
+    },
+    "Url": "http://m-biometric.com"
+  },
+  {
+    "Id": 23,
+    "Title": "Act By Heart",
+    "StartDate": "2015-01-01",
+    "EndDate": "2015-05-28",
+    "Description": {
+      "sv_SE": ""
+    },
+    "Url": "https://www.actbyheart.se"
+  },
+  {
+    "Id": 24,
+    "Title": "Castra",
+    "StartDate": "2015-01-01",
+    "EndDate": "2015-05-28",
+    "Description": {
+      "sv_SE": ""
+    },
+    "Url": "https://www.castra.se"
+  },
+  {
+    "Id": 25,
+    "Title": "Suryoyo Sat",
+    "StartDate": "2015-01-01",
+    "EndDate": "2015-05-28",
+    "Description": {
+      "sv_SE": ""
+    }
+  },
+  {
+    "Id": 26,
+    "Title": "Dmesta",
+    "StartDate": "2001-01-01",
+    "EndDate": "2001-05-28",
+    "Description": {
+      "sv_SE": ""
+    }
+  },
+  {
+    "Id": 27,
+    "Title": "Blickavision",
+    "StartDate": "2001-01-01",
+    "EndDate": "2001-05-28",
+    "Description": {
+      "sv_SE": ""
+    },
+    "Url": "https://web.archive.org/web/20090122214435/http://blickavision.se/"
+  },
+  {
+    "Id": 27,
+    "Title": "Bahro",
+    "StartDate": "2001-01-01",
+    "EndDate": "2001-05-28",
+    "Description": {
+      "sv_SE": ""
+    },
+    "Url": "https://www.bahro.nu"
+  }
+]
