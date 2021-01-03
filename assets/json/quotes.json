@@ -32,7 +32,7 @@
   },
   {
     "Id": 7,
-    "Quotation": "Everyone can read books, but not everyone can understand the meanings.",
+    "Quotation": "Everyone can read books, but not everyone can understand the message.",
     "PublishDate": "2020-02-18T21:22"
   },
   {
@@ -64,6 +64,11 @@
     "Id": 13,
     "Quotation": "Nothing on this earth lasts forever.",
     "PublishDate": "2020-04-26T17:52"
+  },
+  {
+    "Id": 14,
+    "Quotation": "The fool loves to talk alot and do nothing.",
+    "PublishDate": "2021-01-04T00:40"
   }
 ]
 }
