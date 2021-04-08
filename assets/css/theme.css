@@ -1,3 +1,6 @@
-html{
-    font-family: Comic Sans MS, Comic Sans MS5, cursive;
+
+
+.bcprimary{
+    background: rgb(87,36,36);
+    background: linear-gradient(143deg, rgba(87,36,36,1) 0%, rgba(189,49,49,1) 100%);
 }
