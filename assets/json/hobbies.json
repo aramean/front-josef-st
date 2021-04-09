@@ -2,55 +2,55 @@
   {
     "Id": 1,
     "Title": "Cooking",
-    "HtmlIcon": 127837,
+    "HtmlIcon": "&#127837",
     "Comment": ""
   },
   {
     "Id": 2,
     "Title": "Singing",
-    "HtmlIcon": 127908,
+    "HtmlIcon": "&#127908",
     "Comment": ""
   },
   {
     "Id": 3,
     "Title": "Drawing",
-    "HtmlIcon": 9997,
+    "HtmlIcon": "&#9997",
     "Comment": ""
   },
   {
     "Id": 4,
     "Title": "Programming",
-    "HtmlIcon": 128187,
+    "HtmlIcon": "&#128187",
     "Comment": ""
   },
   {
     "Id": 5,
     "Title": "Painting",
-    "HtmlIcon": 127912,
+    "HtmlIcon": "&#127912",
     "Comment": ""
   },
   {
     "Id": 6,
     "Title": "Hiking",
-    "HtmlIcon": 128694,
+    "HtmlIcon": "&#128694",
     "Comment": ""
   },
   {
     "Id": 7,
     "Title": "Cultivating",
-    "HtmlIcon": 127793,
+    "HtmlIcon": "&#127793",
     "Comment": ""
   },
   {
     "Id": 8,
     "Title": "Studying",
-    "HtmlIcon": 127891,
+    "HtmlIcon": "&#127891",
     "Comment": ""
   },
   {
     "Id": 8,
     "Title": "Designing",
-    "HtmlIcon": 128395,
+    "HtmlIcon": "&#128395",
     "Comment": ""
   }
 ]

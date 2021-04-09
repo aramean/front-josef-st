@@ -6,11 +6,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Josef Gabrielsson">
-    <meta name="keywords" content="Josef Gabrielsson, Aramean, Syriac, Syrian, Aramaic, Suryoyo, Oromoyo, Keferze">
+    <meta name="keywords" content="Josef Gabrielsson, Aramean, Syriac, Syrian, Aramaic, Suryoyo, Oromoyo, Keferze, Kafarze">
     <meta name="author" content="Josef Gabrielsson">
     <base env="local:/;prod:/">
     <link type="text/css" href="https://3el.github.io/front/dist/front.css" rel="stylesheet">
-    <!--<link type="text/css" href="http://localhost:8888/dist/front.css" rel="stylesheet">-->
     <link type="text/css" href="https://3el.github.io/front/dist/design/front/theme/front.css" rel="stylesheet">
     <link type="text/css" href="assets/css/theme.css?4" rel="stylesheet">
     <script src="https://3el.github.io/front/dist/front.js" lib="xhr;popup;nav;json;drag;i18n"></script>
@@ -24,27 +23,23 @@
 </head>
 <body class="black">
     <header></header>
-    <nav class="topbar pa tdu- red- shade05 h5 gap2- pr4 zi10" selective="true">
-        <a href="./" target="_top" class="fr pr1"><img class="h2 br50 bcblack" src="assets/img/josef.png"></a>
-        <!--<a href="todos" key="4"><s>Todos</s></a>-->
-        <!--<a href="projects" key="5"><s>Projects</s></a>-->
-        <a href="quotes" key="5">Quotes</a>
-        <!--<a href="skills" key="5"><s>Skills</s></a>-->
-        <!--<a href="interests" key="5"><s>Interests</s></a>-->
-        <!--<a href="hobbies" key="5"><s>Hobbies</s></a>-->
+    <nav class="topbar pa black01 tdu- shade05 h5 gap1- pr4 zi10" selective="true">
+        <a href="#1" target="_top" class="fr pr1"><img class="h2 br50 bcblack" src="assets/img/josef.png"></a>
+        <a href="#2" key="2">●</a>
+        <a href="#3" key="3">●</a>
+        <a href="#4" key="4">●</a>
     </nav>
     <aside class="w25 h100 flc pa l0 bcred">
         <a href="./" target="_top"><img class="h100vh" src="assets/img/josef.png"></a></figure>
     </aside>
-    <main class="">
+    <main>
 
-
-        <section class="h100 bcred yellow">
+        <section class="h100 bcred yellow" id="1">
             <div class="grid w80w flc">
         
                 <div class="aside mb5 mt5 lg_tac">
-                    <h1 class="fs22 w100 tac" globalize="title1">Josef Gabrielsson</h1>
-                    <small class="gold small w100 tac"><span class="yellow">Ethnicity:</span> Aramean <i class="icon">&#35;</i><span class="yellow">Nationality:</span> Swedish</small>
+                    <h1 class="fs22 w100 tac">Josef Gabrielsson</h1>
+                    <small class="gold small w100 tac"><span class="yellow" globalize="ethnicity">Ethnicity:</span> Aramean <i class="icon">&#35;</i><span class="yellow" globalize="nationality">Nationality:</span> Swedish</small>
                     <p class="mt2 mb3 z12 white" globalize="title1_sub">Josef is a Specialist and Full-stack Designer with an Entrepreneurial background working in different areas in development, design, engineering, management, business, innovation within the private and the public sector.</p>
                     <div class="gap1- lg_gap0- lg_w100p- xm_z12 josef">
                         <a href="/assets/cv/josef-gabrielsson-personal-cv.pdf" target="_top" class="button bcred bs0 bos3 bw1 xm_w100p yellow" globalize="download"><i class="icon">&#8615;</i>Download CV</a><a href="/assets/cv/josef-gabrielsson-personal-cv.pdf" target="_top" class="button bcred bs0 bos3 bw1 xm_w100p yellow d0" globalize="hire_me"><i class="icon">&#128188;</i>Hire me</a>
@@ -58,25 +53,25 @@
             </div>
         </section>
 
-        <section class="h100 bcyellow red">
+        <section class="h100 bcyellow red" id="2">
             <div class="grid w80w flc">
         
-                <div class="aside mb5 mt5 lg_tac">
-                    <h1 class="fs22" globalize="title1">Hobbies</h1>
-                    <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="quotes" datasource="assets/json/hobbies.json">
-                        <quote class="p05">
-                            <figcaption jsonbefore="&quot;" jsonafter="&quot;" jsonget="Quotation"></figcaption>
-                            <small class="mt05" jsonget="PublishDate"></small>
+                <div class="aside lg_tac">
+                    <h1 class="fs22 mb2" globalize="hobbies">Hobbies</h1>
+                    <div class="box cards gaph05- bcwhite- border-" json="true" iterate="true" datasource="assets/json/hobbies.json">
+                        <quote class="p05 black">
+                            <figcaption jsonget="Title"></figcaption>
+                            <small class="mt05" jsonget="HtmlIcon"></small>
                         </quote>
                     </div>
                 </div>
         
-                <div class="aside mb5 mt5 lg_tac">
-                    <h1 class="fs22" globalize="title1">Interests</h1>
-                    <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="quotes" datasource="assets/json/hobbies.json">
-                        <quote class="p05">
+                <div class="aside lg_tac">
+                    <h1 class="fs22 mb2" globalize="interests">Interests</h1>
+                    <div class="box cards gaph05- bcwhite- border-" json="true" iterate="true" datasource="assets/json/interests.json">
+                        <quote class="p05 black">
                             <figcaption jsonget="Title"></figcaption>
-                            <small class="mt05" jsonget="PublishDate"></small>
+                            <small class="mt05" jsonget="HtmlIcon"></small>
                         </quote>
                     </div>
                 </div>
@@ -84,10 +79,10 @@
             </div>
         </section>
 
-        <section class="h100 bcred yellow">
+        <section class="h100 bcred yellow" id="3">
             <div class="grid w80w flc">
                 <div class="aside mb5 mt5 lg_tac">
-                    <h1 class="fs22 mb3" globalize="title1">Quotes</h1>
+                    <h1 class="fs22 mb3" globalize="quotes">Quotes</h1>
                     <div class="box cards br0- gap1- gaph2- bcyellow- border- tac zoom-" json="true" iterate="quotes" datasource="assets/json/quotes.json">
                         <figure class="p05 z08 w10 h10 black bcyellow ofa">
                             <figcaption class="fwb" jsonbefore="&quot;" jsonafter="&quot;" jsonget="Quotation"></figcaption>
@@ -98,20 +93,20 @@
             </div>
         </section>
 
-        <section class="h100 bcwhite black">
+        <section class="h100 bcwhite black" id="4">
             <div class="grid w80w flc">
         
                 <div class="aside mb5 mt5 lg_tac">
-                    <h1 class="fs22" globalize="title1">Projects</h1>
-                    <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="quotes" datasource="assets/json/projects.json">
+                    <h1 class="fs22 mb2" globalize="title1">Projects</h1>
+                    <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="true" datasource="assets/json/projects.json">
                         <quote class="p05">
-                            <figcaption jsonbefore="&quot;" jsonafter="&quot;" jsonget="Quotation"></figcaption>
-                            <small class="mt05" jsonget="PublishDate"></small>
+                            <figcaption jsonget="Title"></figcaption>
+                            <small class="mt05" jsonget="StartDate"></small>
                         </quote>
                     </div>
 
                     <div class="gap1- lg_gap0- lg_w100p- xm_z12 josef">
-                        <a href="/assets/cv/josef-gabrielsson-personal-cv.pdf" target="_top" class="button bcred bs0 bos3 bw1 xm_w100p yellow" globalize="download"><i class="icon32">&#8230;</i></a>
+                        <a href="#" target="_top" class="button bcred bs0 bos3 bw1 xm_w100p yellow"><i class="icon32">&#8230;</i></a>
                     </div>
                 </div>
         
