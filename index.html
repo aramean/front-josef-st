@@ -23,15 +23,12 @@
 </head>
 <body class="black">
     <header></header>
-    <nav class="topbar pa black01 shade05 h4 gap1- pr1 zi10" selective="true">
-        <a href="#1" target="_top" class="fr pr1 sel"><img class="h2 br50 bcwhite" src="assets/img/josef.png"></a>
-        <a href="#2" key="2">&#9312;</a>
-        <a href="#3" key="3">&#9313;</a>
-        <a href="#4" key="4">&#9314;</a>
+    <nav class="topbar pa black01 shade05 h2 zi10 white- gap05- pr05" selective="true">
+        <a href="#1" class="pl05 mt1"><img class="h2 br50 shade1" src="assets/img/josef.png"></a>
+        <a href="#2" class="w2r bcblack02 z07 mt1 fr" key="2">&#120813;</a>
+        <a href="#3" class="w2r bcblack02 z07 mt1" key="3">&#120814;</a>
+        <a href="#4" class="w2r bcblack02 z07 mt1" key="4">&#120815;</a>
     </nav>
-    <aside class="w25 h100 flc pa l0 bcred">
-        <a href="./" target="_top"><img class="h100vh" src="assets/img/josef.png"></a></figure>
-    </aside>
     <main>
 
         <section class="h100 bcred yellow" id="1">
@@ -86,7 +83,7 @@
                     <div class="box cards br0- gap1- gaph2- bcyellow- border- tac zoom-" json="true" iterate="quotes" datasource="assets/json/quotes.json">
                         <figure class="p05 z08 w10 h10 black bcyellow ofa">
                             <figcaption class="fwb" jsonbefore="&quot;" jsonafter="&quot;" jsonget="Quotation"></figcaption>
-                            <small class="mt1" jsonget="PublishDate"></small>
+                            <small class="mt1" jsonget="PublishDate" format="date(Y-m-d)"></small>
                         </figure>
                     </div>
                 </div>
