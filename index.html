@@ -43,29 +43,81 @@
             <div class="grid w80w flc">
         
                 <div class="aside mb5 mt5 lg_tac">
-                    <h1 class="fs22" globalize="title1">Josef Gabrielsson</h1>
-                    <p class="mt2 mb2 z12" globalize="title1_sub">Josef is a Specialist and Full-stack Designer with an Entrepreneurial background working in different areas in development, design, engineering, management, business, innovation within the private and the public sector.</p>
+                    <h1 class="fs22 w100 tac" globalize="title1">Josef Gabrielsson</h1>
+                    <small class="gold small w100 tac"><span class="yellow">Ethnicity:</span> Aramean <i class="icon">&#35;</i><span class="yellow">Nationality:</span> Swedish</small>
+                    <p class="mt2 mb3 z12 white" globalize="title1_sub">Josef is a Specialist and Full-stack Designer with an Entrepreneurial background working in different areas in development, design, engineering, management, business, innovation within the private and the public sector.</p>
                     <div class="gap1- lg_gap0- lg_w100p- xm_z12 josef">
-                        <a href="/assets/cv/josef-gabrielsson-personal-cv.pdf" target="_top" class="button z12 bcred" globalize="download">Download CV</a>
+                        <a href="/assets/cv/josef-gabrielsson-personal-cv.pdf" target="_top" class="button bcred bs0 bos3 bw1 xm_w100p yellow" globalize="download"><i class="icon">&#8615;</i>Download CV</a><a href="/assets/cv/josef-gabrielsson-personal-cv.pdf" target="_top" class="button bcred bs0 bos3 bw1 xm_w100p yellow d0" globalize="hire_me"><i class="icon">&#128188;</i>Hire me</a>
                     </div>
                 </div>
         
                 <div class="aside sm_pl4 lg_pl4 xl_pl5 lg_gan mt4 mb4 tac">
-                    <img class="w100" src="assets/img/josef.png">
+                    <a href="javascript:alert('mjao')"><img class="w100" src="assets/img/josef.png"></a>
                 </div>
         
             </div>
         </section>
 
-        <div class="grid flc h100vh">
-
-        <div class="w75 p10 zi5 pa r0">
-            <h1>QUOTES</h1>
-            <p class="z12 mt1">Josef is a Specialist and Full-stack Designer with an Entrepreneurial background working in different areas in development, design, engineering, management, business, innovation within the private and the public sector.</p>
-            <div class="gap2- mt2">
-                
+        <section class="h100 bcyellow red">
+            <div class="grid w80w flc">
+        
+                <div class="aside mb5 mt5 lg_tac">
+                    <h1 class="fs22" globalize="title1">Hobbies</h1>
+                    <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="quotes" datasource="assets/json/hobbies.json">
+                        <quote class="p05">
+                            <figcaption jsonbefore="&quot;" jsonafter="&quot;" jsonget="Quotation"></figcaption>
+                            <small class="mt05" jsonget="PublishDate"></small>
+                        </quote>
+                    </div>
+                </div>
+        
+                <div class="aside mb5 mt5 lg_tac">
+                    <h1 class="fs22" globalize="title1">Interests</h1>
+                    <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="quotes" datasource="assets/json/hobbies.json">
+                        <quote class="p05">
+                            <figcaption jsonget="Title"></figcaption>
+                            <small class="mt05" jsonget="PublishDate"></small>
+                        </quote>
+                    </div>
+                </div>
+        
             </div>
-        </div>
+        </section>
+
+        <section class="h100 bcred yellow">
+            <div class="grid w80w flc">
+                <div class="aside mb5 mt5 lg_tac">
+                    <h1 class="fs22 mb3" globalize="title1">Quotes</h1>
+                    <div class="box cards br0- gap1- gaph2- bcyellow- border- tac zoom-" json="true" iterate="quotes" datasource="assets/json/quotes.json">
+                        <figure class="p05 z08 w10 h10 black bcyellow ofa">
+                            <figcaption class="fwb" jsonbefore="&quot;" jsonafter="&quot;" jsonget="Quotation"></figcaption>
+                            <small class="mt1" jsonget="PublishDate"></small>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="h100 bcwhite black">
+            <div class="grid w80w flc">
+        
+                <div class="aside mb5 mt5 lg_tac">
+                    <h1 class="fs22" globalize="title1">Projects</h1>
+                    <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="quotes" datasource="assets/json/projects.json">
+                        <quote class="p05">
+                            <figcaption jsonbefore="&quot;" jsonafter="&quot;" jsonget="Quotation"></figcaption>
+                            <small class="mt05" jsonget="PublishDate"></small>
+                        </quote>
+                    </div>
+
+                    <div class="gap1- lg_gap0- lg_w100p- xm_z12 josef">
+                        <a href="/assets/cv/josef-gabrielsson-personal-cv.pdf" target="_top" class="button bcred bs0 bos3 bw1 xm_w100p yellow" globalize="download"><i class="icon32">&#8230;</i></a>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+
     </main>
     <aside></aside>
 
