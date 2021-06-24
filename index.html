@@ -21,7 +21,7 @@
         gtag('config', 'G-ZZ5XJPJ80G');
     </script>
 </head>
-<body class="black">
+<body>
     <header></header>
     <nav class="topbar pa black01 shade05 h2 zi10 white- gap05- pr05" selective="true">
         <a href="#1" class="pl05 mt1"><img class="h2 br50 shade1" src="assets/img/josef.png"></a>
@@ -31,7 +31,7 @@
     </nav>
     <main>
 
-        <section class="h100 bcred yellow" id="1">
+        <section class="h100 bcred yellow pr zi2" id="1">
             <div class="grid w80w flc">
         
                 <div class="aside lg_tac">
@@ -50,7 +50,7 @@
             </div>
         </section>
 
-        <section class="h100 bcyellow red" id="2">
+        <section class="h100 bcyellow red zi3" id="2">
             <div class="grid w80w flc">
         
                 <div class="aside lg_tac">
@@ -76,7 +76,7 @@
             </div>
         </section>
 
-        <section class="h100 bcred yellow" id="3">
+        <section class="h100 bcred yellow zi3" id="3">
             <div class="grid w80w flc">
                 <div class="aside mb5 mt5 lg_tac">
                     <h1 class="fs20 mb3 tac w100" globalize="quotes">Quotes</h1>
@@ -90,16 +90,20 @@
             </div>
         </section>
 
-        <section class="h100 bcwhite black" id="4">
+        <section class="h100 bcwhite black zi3" id="4">
             <div class="grid w80w flc">
         
                 <div class="aside mb5 mt5 lg_tac">
                     <h1 class="fs22 mb2 tac w100" globalize="title1">Projects</h1>
+                    <form></form>
                     <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="true" datasource="assets/json/projects.json">
-                        <quote class="p05">
+                        <div class="p05 tac">
                             <figcaption jsonget="Title"></figcaption>
+                            <small jsonbefore="#" lowercase="true" jsonget="Tags"></small>
                             <small class="mt05" jsonget="StartDate"></small>
-                        </quote>
+                            <a class="button bc0 black fr icon" jsonget="Url" target="_blank">&#128279;</a>
+                        </div>
+                        <input type="hidden" lowercase="true" jsonget="Type">
                     </div>
 
                     <div class="gap1- lg_gap0- lg_w100p- xm_z12 josef">
@@ -113,6 +117,6 @@
     </main>
     <aside></aside>
 
-    <footer class="pa b0 w100 p2"><a href="#" class="icon24 m0a yellow bcblack03 br50 pulsate p05">&#129123;</a></footer>
+    <footer class="pa b0 w100 p2 zi2"><a href="#" class="icon24 m0a yellow bcblack03 br50 pulsate p05">&#129123;</a></footer>
 </body>
 </html>
