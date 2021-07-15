@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" cache="no">
+<html lang="en;auto" cache="no">
 <head>
     <title>Josef Gabrielsson | Personal website</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge;ie=10;chrome=1" />
@@ -12,7 +12,7 @@
     <link type="text/css" href="https://3el.github.io/front/dist/front.css" rel="stylesheet">
     <link type="text/css" href="https://3el.github.io/front/dist/design/front/theme/front.css" rel="stylesheet">
     <link type="text/css" href="assets/css/theme.css?4" rel="stylesheet">
-    <script src="https://3el.github.io/front/dist/front.js" lib="xhr;popup;nav;json;drag;i18n"></script>
+    <script src="https://3el.github.io/front/dist/front.js" lib="popup;nav;json;globalize"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZ5XJPJ80G"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -66,10 +66,10 @@
                 <div class="aside lg_tac">
                     <h1 class="mb2" globalize="interests">Interests</h1>
                     <div class="box cards gaph05- bcwhite- border-" json="true" iterate="true" datasource="assets/json/interests.json">
-                        <quote class="p05 black">
+                        <figure class="p05 black">
                             <figcaption jsonget="Title"></figcaption>
                             <small class="mt05" jsonget="HtmlIcon"></small>
-                        </quote>
+                        </figure>
                     </div>
                 </div>
         
