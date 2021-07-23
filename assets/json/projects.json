@@ -9,19 +9,22 @@
     "Id": 2,
     "Title": "Yrkesresan",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.yrkesresan.se"
   },
   {
     "Id": 3,
     "Title": "GRVux",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.grvux.se"
   },
   {
     "Id": 4,
     "Title": "Syvonline",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.syvonline.se"
   },
   {
     "Id": 5,
@@ -87,19 +90,22 @@
     "Id": 15,
     "Title": "KUBit",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.kub-it.se"
   },
   {
     "Id": 16,
     "Title": "Textäventyr",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.textaventyr.se"
   },
   {
     "Id": 17,
     "Title": "SFIväst",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.sfivast.se"
   },
   {
     "Id": 18,
@@ -117,7 +123,8 @@
     "EndDate": "2020-04-02T00:00:00Z",
     "Description": {
       "sv_SE": "Västsverige växer är ett pedagogiskt material om hållbart samhällsbyggande för åk 7-9 samt gymnasiet."
-    }
+    },
+    "Url": "https://www.vsvskola.se"
   },
   {
     "Id": 19,
@@ -184,7 +191,8 @@
     "EndDate": "2015-05-28",
     "Description": {
       "sv_SE": ""
-    }
+    },
+    "Url": "http://www.suryoyosat.com"
   },
   {
     "Id": 26,
