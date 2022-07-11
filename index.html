@@ -53,7 +53,7 @@
             <a href="#" class="close yellow">×</a>
             <h2>I'm the creator of Front</h2>
             <p>This homepage is powered by a Front-end framework!<br><br><br></p>
-            <a target="_blank" href="https://3el.github.io/front"><img class="w10 tac m0a pulsate" src="https://www.front.nu/assets/img/icon_black.svg"></a>
+            <a target="_blank" href="https://www.front.nu"><img class="w10 tac m0a pulsate" src="https://www.front.nu/assets/img/icon_black.svg"></a>
           </div>
         </div>
 
@@ -105,13 +105,12 @@
 
         <div class="aside mb5 mt5 lg_tac">
           <h1 class="fs22 mb2 tac w100" globalize="title1">Projects</h1>
-          <form></form>
           <div class="box cards gap1- gaph2- bcwhite- border- tac" json="true" iterate="true" datasource="assets/json/projects.json">
             <div class="p05 tac">
               <figcaption jsonget="Title"></figcaption>
               <small jsonbefore="#" lowercase="true" jsonget="Tags"></small>
               <small class="mt05" jsonget="StartDate"></small>
-              <a class="button bc0 black m1 flc icon" jsonget="Url" target="_blank">&#128279;</a>
+              <a class="button bc0 black m1 flc icon" jsonget="Url" if="{{ jsonget:Url }};;hide" target="_blank">&#128279;</a>
             </div>
             <input type="hidden" lowercase="true" jsonget="Type">
           </div>
