@@ -3,7 +3,8 @@
     "Id": 1,
     "Title": "Gymnasieantagningen (Indra)",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://indra2.se"
   },
   {
     "Id": 2,
@@ -42,19 +43,22 @@
     "Id": 7,
     "Title": "Tena",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.shop.tena.nu"
   },
   {
     "Id": 8,
     "Title": "Abeer Nehme",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.abeernehme.com"
   },
   {
     "Id": 9,
     "Title": "Framtiden",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://www.framtiden.se"
   },
   {
     "Id": 10,
@@ -66,7 +70,8 @@
     "Id": 11,
     "Title": "Jordbruksverket",
     "StartDate": "2018-01-01",
-    "EndDate": "2020-04-02T00:00:00Z"
+    "EndDate": "2020-04-02T00:00:00Z",
+    "Url": "https://jordbruksverket.se"
   },
   {
     "Id": 12,
@@ -114,7 +119,8 @@
     "EndDate": "2020-04-02T00:00:00Z",
     "Description": {
       "sv_SE": "Framtidens Samhällsbyggare är ett branschöverskridande traineeprogram som startades för att skapa samverkan och möta framtidens utmaningar inom samhällsbyggnad."
-    }
+    },
+    "Url": "https://www.framtidenssamhallsbyggare.se"
   },
   {
     "Id": 18,
