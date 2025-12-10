@@ -13,9 +13,20 @@
 
 <body click="focus:#command" bgcolor="black" color="white" margin="0" padding="1rem" flex flexdirection="column"
   font="monospace" lineheight="1.5">
-  <template>
-
-  </template>
+  <article>
+    <section id="help" hide>
+      <table spacing="0" style="border-spacing: 0">
+        <tr>
+          <td>cv</td>
+          <td>About this project</td>
+        </tr>
+        <tr>
+          <td width="40%">about</td>
+          <td>About Josef Gabrielsson</td>
+        </tr>
+      </table>
+    </section>
+  </article>
   <main>
     <section id="start" marginbottom="1rem">
       Welcome to Josef Gabrielsson CLI <span color="yellow" metadata="version"></span><br>
@@ -683,7 +694,7 @@
   </main>
   <footer>
     <section>
-      <form flex flexdirection="row" onformsubmit="append:*main:#from2;reset">
+      <form flex flexdirection="row" onformsubmit="append:*main:#from2;append:*main:#help;scroll:*body:[bottom];reset">
         <span color="yellow">guest@josef.st</span>:<span color="red">~</span><span paddingright="0.5rem">$</span>
         <input type id="command" style="outline: none" focus font="inherit" outline="none" autocomplete="off"
           bgcolor="black" color="white" border="0" padding="0" width="100%">
