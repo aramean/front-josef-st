@@ -12,25 +12,49 @@
 </head>
 
 <body click="focus:#command" bgcolor="black" color="white" margin="0" padding="1rem" flex flexdirection="column"
-  font="monospace" lineheight="1.5">
+  font="monospace" lineheight="1.4">
   <article>
     <section id="help" hide>
       <table spacing="0" style="border-spacing: 0">
         <tr>
-          <td>cv</td>
-          <td>About Josef Gabrielsson</td>
+          <td>josef</td>
+          <td>About me.</td>
         </tr>
         <tr>
-          <td width="40%">about</td>
-          <td>About this project</td>
+          <td width="40%">project</td>
+          <td>About this project.</td>
         </tr>
       </table>
     </section>
     <section id="clear" hide stop="*"><span clear="main"></span></section>
     <section id="whoami" hide><span>guest</span></section>
+    <section id="josef" hide>
+      <p><b>About me</b><br>========
+        <br>I have a strong passion for frontend, DevOps, and backend development. I create dynamic and responsive user
+        interfaces
+        using HTML, CSS, and JavaScript, and I work with modern frontend frameworks such as React, Svelte, Angular — as
+        well as
+        my own low-code framework, Front, which enables rapid prototyping and scalable development.
+        <br><br>
+        On the backend, I'm proficient in C#, Python, PHP, Golang, Node.js, databases, server management, and RESTful
+        API
+        integration. I also have experience with Java and Android development.
+        <br><br>
+        I'm known for quickly learning new technologies, adapting to change, and maintaining a strong work ethic. I stay
+        up to
+        date with the latest trends across the entire development stack and continually develop my skills.
+      </p>
+    </section>
+    <section id="project" hide>
+      <p><b>About this project</b><br>==================
+        <br>This CLI-style website is built using Front, a lightweight low-code framework I created, together with FTML,
+        a custom markup language for interactive UI logic. It demonstrates how Front can build dynamic web interfaces
+        using simple declarative syntax while keeping full control in the DOM.
+      </p>
+    </section>
   </article>
   <main>
-    <section id="start" marginbottom="1rem">
+    <section id="start" marginbottom="1.4rem">
       Welcome to Josef Gabrielsson CLI <span color="yellow" metadata="version"></span><br>
       Type <span color="red">"help"</span> for available commands.<br>
       <pre whitespace="none" style="font-size: 6px" color="red" lineheight="1" paddingtop="1rem"><b 
@@ -705,8 +729,8 @@
   </main>
   <footer>
     <section>
-      <form flex flexdirection="row" bindfield="test:#command"
-        onformsubmit="append:*main:#from2;append:*main:#{test};reset" onreset="scroll:*body:[bottom]">
+      <form flex flexdirection="row" bindfield="inputvar:#command"
+        onformsubmit="append:*main:#from2;append:*main:#{inputvar};reset" onreset="scroll:*body:[bottom]">
         <span color="yellow">guest@josef.st</span>:<span color="red">~</span><span paddingright="0.5rem">$</span>
         <input type id="command" style="outline: none" font="inherit" outline="none" autocomplete="off" bgcolor="black"
           color="white" border="0" padding="0" width="100%" bindfieldreloadcontent="false" focus>
