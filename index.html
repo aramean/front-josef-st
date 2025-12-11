@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta name="version" content="1.0.0">
-  <script src="https://cdn.front.nu/nightly/front.js" module="data;keyboard;chronotize"
-    conf="debug:false;debugLocalhost:true"></script>
+  <script src="https://cdn.front.nu/nightly/front.js" module="data;keyboard;chronotize" conf="debug:true"></script>
   <link rel="icon" href="data:,">
   <title>Josef Gabrielsson CLI</title>
 </head>
@@ -15,10 +14,36 @@
   font="monospace" lineheight="1.4">
   <article>
     <section id="help" hide>
-      <table spacing="0" style="border-spacing: 0">
+      <table spacing="0" style="border-spacing: 0" padding="1rem 0">
+        <thead>
+          <tr>
+            <th style="text-align: left">Command</th>
+            <th style="text-align: left">Description</th>
+          </tr>
+          <tr>
+            <th style="text-align: left">-------</th>
+            <th style="text-align: left">-----------</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>help</td>
+          <td>Show all commands.</td>
+        </tr>
+        <tr>
+          <td>date</td>
+          <td>Show current date and time.</td>
+        </tr>
+        <tr>
+          <td>clear</td>
+          <td>Clear the terminal screen.</td>
+        </tr>
         <tr>
           <td>josef</td>
           <td>About me.</td>
+        </tr>
+        <tr>
+          <td>contact</td>
+          <td>How to reach me.</td>
         </tr>
         <tr>
           <td width="40%">project</td>
@@ -28,35 +53,37 @@
     </section>
     <section id="clear" hide stop="*"><span clear="main"></span></section>
     <section id="whoami" hide><span>guest</span></section>
+    <section id="date" hide><span chronotize-get="F d, Y H:i:s"></span></section>
     <section id="josef" hide>
-      <p><b>About me</b><br>========
-        <br>I have a strong passion for frontend, DevOps, and backend development. I create dynamic and responsive user
-        interfaces
-        using HTML, CSS, and JavaScript, and I work with modern frontend frameworks such as React, Svelte, Angular — as
-        well as
-        my own low-code framework, Front, which enables rapid prototyping and scalable development.
+      <p>Hi! I'm Josef Gabrielsson. I have a strong passion for frontend, DevOps, and backend development. I create
+        dynamic and responsive user interfaces using HTML, CSS, and JavaScript, and I work with modern frontend
+        frameworks such as React, Svelte, Angular - as well as my own low-code framework, Front, which enables rapid
+        prototyping and scalable development.
         <br><br>
         On the backend, I'm proficient in C#, Python, PHP, Golang, Node.js, databases, server management, and RESTful
-        API
-        integration. I also have experience with Java and Android development.
+        API integration. I also have experience with Java and Android development.
         <br><br>
         I'm known for quickly learning new technologies, adapting to change, and maintaining a strong work ethic. I stay
-        up to
-        date with the latest trends across the entire development stack and continually develop my skills.
+        up to date with the latest trends across the entire development stack and continually develop my skills.
       </p>
     </section>
     <section id="project" hide>
-      <p><b>About this project</b><br>==================
-        <br>This CLI-style website is built using Front, a lightweight low-code framework I created, together with FTML,
+      <p>This CLI-style website is built using Front, a lightweight low-code framework I created, together with FTML,
         a custom markup language for interactive UI logic. It demonstrates how Front can build dynamic web interfaces
         using simple declarative syntax while keeping full control in the DOM.
       </p>
+      <p>Version: <span metadata="version"></span></p>
+    </section>
+    <section id="contact" hide>
+      <p>You can reach me via email at: gabrielsson@josef.st</p>
+      <p>Feel free to send a message for project inquiries, collaboration, or just to say hi. I check emails regularly
+        and will get back to you as soon as possible.</p>
     </section>
   </article>
   <main>
     <section id="start" marginbottom="1.4rem">
       Welcome to Josef Gabrielsson CLI <span color="yellow" metadata="version"></span><br>
-      Type <span color="red">"help"</span> for available commands.<br>
+      Type <b color="yellow" bgcolor="red">help</b> for available commands.<br>
       <pre whitespace="none" style="font-size: 6px" color="red" lineheight="1" paddingtop="1rem"><b 
       color="red">1</b><b color="red">1</b><b color="red">1</b><b
       color="red">1</b><b color="red">1</b><b color="red">1</b><b
