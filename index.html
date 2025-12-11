@@ -18,14 +18,16 @@
       <table spacing="0" style="border-spacing: 0">
         <tr>
           <td>cv</td>
-          <td>About this project</td>
+          <td>About Josef Gabrielsson</td>
         </tr>
         <tr>
           <td width="40%">about</td>
-          <td>About Josef Gabrielsson</td>
+          <td>About this project</td>
         </tr>
       </table>
     </section>
+    <section id="clear" hide stop="*"><span clear="main"></span></section>
+    <section id="whoami" hide><span>guest</span></section>
   </article>
   <main>
     <section id="start" marginbottom="1rem">
@@ -703,10 +705,11 @@
   </main>
   <footer>
     <section>
-      <form flex flexdirection="row" onformsubmit="append:*main:#from2;append:*main:#help;scroll:*body:[bottom];reset">
+      <form flex flexdirection="row" bindfield="test:#command"
+        onformsubmit="append:*main:#from2;append:*main:#{test};reset" onreset="scroll:*body:[bottom]">
         <span color="yellow">guest@josef.st</span>:<span color="red">~</span><span paddingright="0.5rem">$</span>
-        <input type id="command" style="outline: none" focus font="inherit" outline="none" autocomplete="off"
-          bgcolor="black" color="white" border="0" padding="0" width="100%">
+        <input type id="command" style="outline: none" font="inherit" outline="none" autocomplete="off" bgcolor="black"
+          color="white" border="0" padding="0" width="100%" bindfieldreloadcontent="false" focus>
       </form>
       <div id="from2" stop="*" hide>
         <div flex flexdirection="row">
