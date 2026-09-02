@@ -5,102 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, interactive-widget=resizes-content">
-  <meta name="version" content="1.0.0">
-  <script src="https://cdn.front.nu/nightly/front.js" module="data;keyboard;chronotize" conf="debug:true"></script>
+  <meta name="version" content="1.0.1">
+  <script src="https://cdn.front.nu/1.1.0/front.js" module="data;keyboard;chronotize" conf="debug:true"></script>
   <link rel="icon" href="data:,">
   <title>Josef Gabrielsson CLI</title>
 </head>
 
 <body click="focus:#command" bgcolor="black" color="white" margin="0" padding="1rem" font="monospace" lineheight="1.4">
-  <article>
-    <section id="help" hide>
-      <table spacing="0" style="border-spacing: 0" padding="1rem 0">
-        <thead>
-          <tr>
-            <th style="text-align: left">Command</th>
-            <th style="text-align: left">Description</th>
-          </tr>
-          <tr>
-            <th style="text-align: left">-------</th>
-            <th style="text-align: left">-----------</th>
-          </tr>
-        </thead>
-        <tr>
-          <td>help</td>
-          <td>Show all commands.</td>
-        </tr>
-        <tr>
-          <td>date</td>
-          <td>Show current date and time.</td>
-        </tr>
-        <tr>
-          <td>whoami</td>
-          <td>Show current logged-in user.</td>
-        </tr>
-        <tr>
-          <td>clear</td>
-          <td>Clear the terminal screen.</td>
-        </tr>
-        <tr>
-          <td>josef</td>
-          <td>About me.</td>
-        </tr>
-        <tr>
-          <td>contact</td>
-          <td>How to reach me.</td>
-        </tr>
-        <tr>
-          <td width="30%">project</td>
-          <td>About this project.</td>
-        </tr>
-      </table>
-    </section>
-    <section id="clear" hide stop="*"><span clear="main"></span></section>
-    <section id="whoami" hide><span>guest</span></section>
-    <section id="date" hide><span chronotize-get="F d, Y H:i:s"></span></section>
-    <section id="josef" hide>
-      <p>Hi, I'm Josef Gabrielsson, a full-stack developer with a strong passion for frontend development, backend
-        systems, and DevOps.
-      </p>
-      <p>
-        I specialize in building dynamic, responsive user interfaces using HTML, CSS, and JS/TS, and I work
-        comfortably with modern frontend frameworks such as React, Vue and Svelte. I'm also the creator of Front,
-        my own low-code framework designed to enable rapid prototyping while remaining scalable and maintainable.
-      </p>
-      <p>
-        On the backend, I have solid experience with C#, Python, PHP, Go, Node.js, relational and non-relational
-        databases, server management, and RESTful API design and integration. I've also worked with Java, as well as
-        Android and Flutter for mobile development.
-      <p>
-        I'm known for learning new technologies quickly, adapting to changing requirements, and maintaining a strong
-        work ethic. I actively stay up to date with trends across the entire development stack and continuously invest
-        in improving both my technical skills and architectural understanding.
-      </p>
-    </section>
-    <section id="project" hide>
-      <p>This CLI-style website is built using Front, a lightweight low-code framework I created, together with FTML,
-        a custom markup language for interactive UI logic.
-      </p>
-      <p>It demonstrates how Front can build dynamic web interfaces
-        using simple declarative syntax while keeping full control in the DOM.
-      </p>
-      <p>┏━━━━━━━━━━━━━━━━━━━━━━━━┓<br>
-        ┃ Framework: Front&nbsp; &nbsp; &nbsp; &nbsp;┃<br>
-        ┃ Language: FTML &nbsp; &nbsp; &nbsp; &nbsp; ┃<br>
-        ┃ Project version: <span metadata="version"></span> ┃<br>
-        ┗━━━━━━━━━━━━━━━━━━━━━━━━┛</p>
-    </section>
-    <section id="contact" hide>
-      <p>You can reach me via email at: gabrielsson@josef.st</p>
-      <p>Feel free to send a message for project inquiries, collaboration, or just to say hi. I check emails regularly
-        and will get back to you as soon as possible.</p>
-    </section>
-  </article>
-  <main>
+  <article id="test" hide onhide="clone:*main:#start;rerun:*main;focus:#command">
     <section id="start" marginbottom="1.4rem">
       Welcome to Josef Gabrielsson CLI <span color="yellow" metadata="version"></span><br>
       Type <b color="yellow" bgcolor="red">help</b> for available commands.<br>
-      <pre whitespace="none" style="font-size: 6px" color="red" lineheight="1" paddingtop="1rem"><b 
+      <pre whitespace="none" fontsize="6px" color="red" lineheight="1" paddingtop="1rem"><b 
       color="red">1</b><b color="red">1</b><b color="red">1</b><b
       color="red">1</b><b color="red">1</b><b color="red">1</b><b
       color="red">1</b><b color="red">1</b><b color="red">1</b><b
@@ -769,13 +685,117 @@
       color="red">1</b><b color="red">1</b><b color="red">1</b><b
       color="red">1</b></pre>
     </section>
-  </main>
+  </article>
+  <header>
+    <section id="help" hide>
+      <table spacing="0" borderspacing="0" padding="1rem 0">
+        <thead>
+          <tr align="left">
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+          <tr align="left">
+            <th>-------</th>
+            <th>-----------</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>help</td>
+          <td>Show all commands.</td>
+        </tr>
+        <tr>
+          <td>clear</td>
+          <td>Clear terminal screen.</td>
+        </tr>
+        <tr>
+          <td>restart</td>
+          <td>Restart CLI session.</td>
+        </tr>
+        <tr>
+          <td>whoami</td>
+          <td>Show current user.</td>
+        </tr>
+        <tr>
+          <td>date</td>
+          <td>Show current date and time.</td>
+        </tr>
+        <tr>
+          <td>cv</td>
+          <td>View my CV.</td>
+        </tr>
+        <tr>
+          <td>contact</td>
+          <td>How to reach me.</td>
+        </tr>
+        <tr>
+          <td width="30%">project</td>
+          <td>About this project.</td>
+        </tr>
+        <tr>
+          <td>josef</td>
+          <td>About me.</td>
+        </tr>
+      </table>
+    </section>
+    <section id="clear" hide stop="*"><span clear="main"></span></section>
+    <section id="restart" hide stop="*"><span clear="main" onclear="clone:*main:#start;rerun:*main"></span></section>
+    <section id="whoami" hide><span>guest</span></section>
+    <section id="date" hide><span chronotize-get="F d, Y H:i:s"></span></section>
+    <section id="cv" hide>
+      <br>
+      <a color="red" href="/assets/cv/josef-gabrielsson-personal-cv.pdf" target="_blank" rel="noopener">* Open CV (PDF)</a><br>
+      <a color="red" href="/assets/cv/josef-gabrielsson-personal-cv.docx" targte="_blank" rel="noopener">* Open CV (DOCX)</a>
+      <br><br>
+    </section>
+    <section id="josef" hide>
+      <p>Hi, I'm Josef Gabrielsson, a full-stack developer with a strong passion for frontend development, backend
+        systems, and DevOps.
+      </p>
+      <p>
+        I specialize in building dynamic, responsive user interfaces using HTML, CSS, and JS/TS, and I work
+        comfortably with modern frontend frameworks such as React, Vue and Svelte. I'm also the creator of Front,
+        my own low-code framework designed to enable rapid prototyping while remaining scalable and maintainable.
+      </p>
+      <p>
+        On the backend, I have solid experience with C#, Python, PHP, Go, Node.js, relational and non-relational
+        databases, server management, and RESTful API design and integration. I've also worked with Java, as well as
+        Android and Flutter for mobile development.
+      <p>
+        I'm known for learning new technologies quickly, adapting to changing requirements, and maintaining a strong
+        work ethic. I actively stay up to date with trends across the entire development stack and continuously invest
+        in improving both my technical skills and architectural understanding.
+      </p>
+    </section>
+    <section id="project" hide>
+      <p>This CLI-style website is built using Front, a lightweight low-code framework I created, together with FTML,
+        a custom markup language for interactive UI logic.
+      </p>
+      <p>It demonstrates how FTML (Front Text Markup Language) can build dynamic web interfaces
+        using simple declarative syntax while keeping full control in the DOM.
+      </p>
+      <p>┏━━━━━━━━━━━━━━━━━━━━━━━━┓<br>
+        ┃ Framework: Front &emsp; &emsp; &emsp; ┃<br>
+        ┃ Language: FTML &emsp; &emsp; &emsp; &emsp; ┃<br>
+        ┃ &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;┃<br>
+        ┃ Project version: <span metadata="version"></span>&emsp;┃<br>
+        ┃ Front version: <span
+          bindglobal="ma:frontVersion.major;mi:frontVersion.minor;pa:frontVersion.patch">{ma}.{mi}.{pa}</span>&emsp;
+        &emsp;┃<br>
+        ┗━━━━━━━━━━━━━━━━━━━━━━━━┛</p>
+    </section>
+    <section id="contact" hide>
+      <p>You can reach me via email at: gabrielsson@josef.st</p>
+      <p>Feel free to send a message for project inquiries, collaboration, or just to say hi. I check emails regularly
+        and will get back to you as soon as possible.</p>
+    </section>
+  </header>
+  <main></main>
   <footer>
     <section>
       <form id="form" flex flexdirection="row" onformsubmit="append:*main:#from2;append:*main:#{inputvar};reset"
         onreset="scroll:*body:[bottom]">
         <span color="yellow">guest@josef.st</span>:<span color="red">~</span><span paddingright="0.5rem">$</span>
-        <input type id="command" style="outline: none" font="inherit" outline="none" autocomplete="off" bgcolor="black"
+        <input type id="command" font="inherit" outline="none" autocomplete="off" spellcheck="false" bgcolor="black"
           color="white" border="0" padding="0" width="100%" bindfield="inputvar:#form" bindfieldreloadcontent="false"
           focus>
       </form>
